@@ -1,0 +1,111 @@
+body{
+  background-color: #e3f2fd;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper__floor{
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  /* background-color: rgb(78, 78, 234); */
+  overflow: hidden;
+}
+
+.layer{
+  width: 40rem;
+  height: 40rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 50px -10px whitesmoke;
+  position: absolute;
+}
+
+.wrapper__floor-layer1{
+  top: 8%;
+  left: -15%;
+    
+}
+
+.wrapper__floor-layer2{
+  top: 13%;
+  left: 10%;
+}
+
+.wrapper__floor-layer3{
+  top: 18%;
+  left: 25%;
+}
+
+.wrapper__floor-layer4{
+  top: 5%;
+  left: 45%;
+}
+
+.wrapper__floor-layer5{
+  top: 10%;
+  right: -15%;
+}
+
+
+
+.wrapper__snowman{
+  width: 12rem;
+  height: 30rem;
+  background-color: burlywood;
+  position: absolute;
+}
+
+.wrapper__snowman .circle{
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.wrapper__snowman .circle1{
+  top: 0%;
+  left: 17%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-flow: column;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.wrapper__snowman .circle2{
+  top: 20%;
+  left: 10%;
+  width: 9rem;
+  height: 9rem;
+}
+
+.wrapper__snowman .circle3{
+  top: 40%;
+  left: -6%;
+  width: 13rem;
+  height: 13rem;
+}
+
+.wrapper__snowman .box-eyes{
+  display: flex;
+}
+
+.wrapper__snowman .eyes{
+  width: .7rem;
+  height: .7rem;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.wrapper__snowman .nose{
+  width: 5rem;
+  height: .8rem;
+  background-color: orange;
+  transform-origin:center;
+  transform:rotate(-30deg);
+  transform: translateY()
+}

@@ -1,0 +1,15 @@
+@import "_resets";
+
+body{
+    background-color: #e3f2fd;
+}
+
+.wrapper__floor{
+    display: flex;
+    
+    &-layer{
+        background-color: white;
+        width: 2rem;
+        height: 2rem;
+    }
+}
