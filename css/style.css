@@ -5,6 +5,30 @@ body{
   padding: 0;
 }
 
+.tittle{
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  padding: 5rem 0 0 0rem;
+}
+
+h1{
+  font-size: 6rem;
+  color: rgb(186, 1, 1);
+  margin: 0;
+}
+
+p{
+  text-align: center;
+  font-size: 7rem;
+  color: rgb(186, 1, 1);
+  margin: 0;
+}
+
 
 .box_flakes{
   width: 100%;
@@ -142,7 +166,7 @@ body{
   border-radius: 50%;
   position: absolute;
   top: 7.7rem;
-  left: 11.5rem;
+  left: 11rem;
   z-index: 3;
 }
 
@@ -158,10 +182,10 @@ body{
   height: 1.4rem;
   position: absolute;
   top: 5.4rem;
-  left: 8.3rem;
+  left: 8.7rem;
   z-index: 2;
   transform-origin: left;
-  transform: rotate(30deg);
+  transform: rotate(39deg);
 }
 
 .wrapper__snowman .hl-2{
