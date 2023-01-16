@@ -1,9 +1,62 @@
 body{
-  background-color: #e3f2fd;
+  background-color: #a0cceb;
   border: 0;
   margin: 0;
   padding: 0;
 }
+
+
+.box_flakes{
+  width: 100%;
+  position: fixed;
+  top: -70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flake{
+  fill: white;
+  /* opacity: 90%; */
+  width: 1.5rem;
+  height: 1.5rem;
+  animation: fallDown infinite 20s 0s normal;
+  /* margin: 0 .3rem; */
+}
+
+@keyframes fallDown {
+  0%{
+    opacity: 100%;
+    transform: translateY(100%);
+  }
+  30%{
+    opacity: 80%;
+  }
+  40%{
+    opacity: 75%;
+  }
+  50%{
+    opacity: 70%;
+  }
+  60%{
+    opacity: 65%;
+  }
+  70%{
+    opacity: 60%;
+  }
+  80%{
+    opacity: 55%;
+  }
+  90%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 45%;
+    transform: translateY(115vh);
+}
+}
+
+
+
 
 .wrapper__floor{
   width: 100%;
@@ -19,7 +72,7 @@ body{
   height: 40rem;
   background-color: white;
   border-radius: 50%;
-  box-shadow: 50px -10px whitesmoke;
+  box-shadow: 50px -10px rgb(232, 231, 231);
   position: absolute;
 }
 
