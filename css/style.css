@@ -13,7 +13,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Playfair Display', serif;
-  padding: 5rem 0 0 0rem;
+  padding: 7rem 0 0 0rem;
 }
 
 h1{
@@ -123,7 +123,7 @@ p{
 
 .wrapper__floor-layer5{
   top: 10%;
-  right: -15%;
+  right: -10%;
 }
 
 
@@ -133,8 +133,8 @@ p{
   height: 25rem;
  
   position: absolute;
-  bottom: 15%;
-  right: 20%;
+  bottom: 10%;
+  right: 25%;
 }
 
 .wrapper__snowman .circle{
