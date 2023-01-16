@@ -14,7 +14,7 @@ body{
   overflow: hidden;
 }
 
-.layer{
+.wrapper__floor .layer{
   width: 40rem;
   height: 40rem;
   background-color: white;
@@ -53,9 +53,11 @@ body{
 
 .wrapper__snowman{
   width: 12rem;
-  height: 30rem;
-  background-color: burlywood;
+  height: 25rem;
+ 
   position: absolute;
+  bottom: 15%;
+  right: 20%;
 }
 
 .wrapper__snowman .circle{
@@ -64,33 +66,107 @@ body{
   border-radius: 50%;
 }
 
+.wrapper__snowman .box-hat{
+  width: 10rem;
+  height: 10rem;
+  /* border: 1px solid grey; */
+  position: absolute;
+  top: -8.5rem;
+  left: -1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 4;
+}
+
+.wrapper__snowman .hat-ball{
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 50%;
+  position: absolute;
+  top: 7.7rem;
+  left: 11.5rem;
+  z-index: 3;
+}
+
+.wrapper__snowman .hat-layer{
+  background-color: red;
+  border-radius: 3rem;
+  border: 1px solid rgb(189, 5, 5);
+}
+
+.wrapper__snowman .hl-1{
+  width: 4.5rem;
+  height: 1.4rem;
+  position: absolute;
+  top: 5.4rem;
+  left: 8.3rem;
+  z-index: 2;
+  transform-origin: left;
+  transform: rotate(30deg);
+}
+
+.wrapper__snowman .hl-2{
+  width: 5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 6.3rem;
+  left: 5.5rem;
+  z-index: 1;
+}
+
+.wrapper__snowman .hl-3{
+  width: 6rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 7.3rem;
+  left: 4rem;
+}
+
+.wrapper__snowman .hl-4{
+  width: 7rem;
+  height: 1.5rem;
+}
+
 .wrapper__snowman .circle1{
-  top: 0%;
-  left: 17%;
+  top: 0px;
+  left: 2rem;
   width: 7rem;
   height: 7rem;
   display: flex;
   flex-flow: column;
   justify-content:center;
   align-items: flex-start;
+  box-shadow: 0px 1px 0px 0px rgb(0 0 0 / 20%);
+  z-index: 2;
 }
 
 .wrapper__snowman .circle2{
-  top: 20%;
-  left: 10%;
+  top: 6rem;
+  left: 1rem;
   width: 9rem;
   height: 9rem;
+  box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
 }
 
 .wrapper__snowman .circle3{
-  top: 40%;
-  left: -6%;
+  top: 12rem;
+  left: -0.8rem;
   width: 13rem;
   height: 13rem;
+  box-shadow: -7px 15px 15px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: -24px 60px 34px -12px rgb(0 0 0 / 10%);
 }
 
 .wrapper__snowman .box-eyes{
   display: flex;
+  position:absolute;
+  top: 2.2rem;
+  left: 0.2rem;
 }
 
 .wrapper__snowman .eyes{
@@ -98,14 +174,54 @@ body{
   height: .7rem;
   background-color: grey;
   border-radius: 50%;
-  margin: 0 1rem;
+  margin: 0 .9rem;
 }
 
 .wrapper__snowman .nose{
-  width: 5rem;
-  height: .8rem;
-  background-color: orange;
   transform-origin:center;
-  transform:rotate(-30deg);
-  transform: translateY()
+  transform:rotate(63deg);
+  transform: translateY();
+  position: absolute;
+  top: 2rem;
+  left: -0.5rem;
+  border: 8px solid transparent;
+  border-top: 90px solid orange;
+}
+
+.wrapper__snowman .mouth{
+  width: 2rem;
+  height: .3rem;
+  background-color: brown;
+  border-radius: 50%;
+  position: absolute;
+  top: 5rem;
+  left: 2.2rem;
+  transform-origin: center;
+  /* transform: skew(-20deg); */
+}
+
+.wrapper__snowman .hands{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.wrapper__snowman .hand{
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: white;
+  border: 1px solid rgb(236, 234, 234);
+  border-radius: 50%;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.wrapper__snowman .hand-left{
+  top: 2.5rem;
+  left: -2rem;
+}
+
+.wrapper__snowman .hand-right{
+  top: 2.5rem;
+  right: -2rem;
 }
